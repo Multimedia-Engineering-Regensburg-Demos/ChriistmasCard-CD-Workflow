@@ -13,8 +13,7 @@
     "debug": "npm run build && npm run start",
     "build": "node build.js && webpack",
     "check": "eslint src/js",
-    "postcheck": "npm install",
-    "prebuild": "npm run check",
+    "prebuild": "npm install && npm run check",
     "watch": "npm-watch"
   },
   "author": "",
