@@ -9,7 +9,10 @@ jobs:
         with:
           node-version: '16'
       - name: Build project
-        run: npm run build
+        run: | 
+          npm run build
+          ls -la
+          echo pwd
       - name: Deploy project
         run: |
           git config user.name github-actions
