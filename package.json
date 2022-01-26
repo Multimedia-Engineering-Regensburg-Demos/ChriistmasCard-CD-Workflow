@@ -9,12 +9,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node start.js",
-    "debug": "npm run build && npm run start",
-    "build": "node build.js && webpack",
-    "check": "eslint src/js",
-    "prebuild": "npm install && npm run check",
-    "watch": "npm-watch"
+    "start": "node start.js"
   },
   "author": "",
   "license": "MIT",
